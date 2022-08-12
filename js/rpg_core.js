@@ -2550,6 +2550,7 @@ Graphics._updateUpperCanvas = function() {
 Graphics._clearUpperCanvas = function() {
     var context = this._upperCanvas.getContext('2d');
     context.clearRect(0, 0, this._width, this._height);
+    document.getElementById('loading').innerHTML="";
 };
 
 /**
@@ -2566,7 +2567,8 @@ Graphics._paintUpperCanvas = function() {
         var alpha = ((this._loadingCount - 20) / 30).clamp(0, 1);
         context.save();
         context.globalAlpha = alpha;
-        context.drawImage(this._loadingImage, dx, dy);
+        //context.drawImage(this._loadingImage, dx, dy);\
+        document.getElementById('loading').innerHTML="<img style='margin: 0; width: 960px; height: 540px; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 7' src='img/system/Loading.gif'>"
         context.restore();
     }
 };
