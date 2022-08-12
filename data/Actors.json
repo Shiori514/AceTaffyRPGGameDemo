@@ -1,0 +1,6 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":7,"characterName":"$Taffy","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":17,"maxLevel":99,"name":"塔菲","nickname":"","note":"<多帧行走图:帧数:12>\n<多帧行走图:初始帧:2>","profile":""},
+{"id":2,"battlerName":"","characterIndex":7,"characterName":"$Taffy_1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":17,"maxLevel":99,"name":"塔菲（睡衣）","nickname":"","note":"<多帧行走图:帧数:12>\n<多帧行走图:初始帧:2>","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"$Taffy","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":17,"maxLevel":99,"name":"？？？","nickname":"","note":"<多帧行走图:帧数:12>\n<多帧行走图:初始帧:2>","profile":""}
+]
